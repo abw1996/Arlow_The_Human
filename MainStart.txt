@@ -1,0 +1,135 @@
+Arlow The Human
+
+"Oh why hello Satin..."
+
+"Thank you for helping learn what it is like to be a human."
+
+"Oh, your not Satin?!"
+
+"Will you still help me learn to be a human?"
+
+NO
+	"Well eat a turd then bruh"
+	game crashes
+YES
+
+"AWESOME!"
+
+"If you not Satan, then what should I call you?"
+
+name = input
+
+"Nice to meet you <name>!"
+
+"Now that we are all sorted out I guess we should head into town."
+
+"Lets go!"
+
+Arlow is walking down the path.
+
+old man - "Help!"
+
+Arlow be like ????
+
+old man - "HEEEEELLLPPP CUNT!"
+
+"O BOI!"
+
+"My first chance to do a human thing!"
+
+"What do I do?"
+
+T-Lets see what he needs help with
+
+F-Humans dont talk to other humans who are weird
+
+
+if F
+	"Oh OK. No problem"
+	Arlow stabs old man.
+	....
+	....
+	....
+	....
+	....
+	"What?"
+	....
+	....
+	"You shouldn't stare at people. Even I know that. Let't get to town."
+
+	- Arlow you shouldn't stab people
+
+		"Oh... sorry."
+
+	- Arlow, never change //Sets stabbing to yes
+		
+		"OK"
+
+Continue to town
+
+If T
+
+"Hello there sir."
+
+"What can I help you with?"
+
+old man - "Thank you so much for stopping!"
+	- "My blood sugar took a dive and I cant stand anymore."
+	- "Could you look in the forest to see if you can find any fruit or berries?"
+	- "They shouldn't be to hard to find with it being summer."
+
+Start of Mini Game
+	
+In this game, you have to switch the different fruits around to get rows of 3 or more.
+
+Once you reach a score of 20,000, you have collected all the fruit you need for the old man.
+
+End of Mini Game
+
+old man - "Thank you sunny."
+	- "I dont even want to think about what would have happened to me if you hadn't come along."
+	- "Here, take this for your troubles. I've long since for gotten what it opens but whatever it is you can have it."
+
+Receive Key // Sets has key to yes
+
+"Thanks old man. <name> will you hold on to this for me?" 
+
+	Arlow stabs old man.
+	....
+	....
+	....
+	....
+	....
+	"What?"
+	....
+	....
+	"You shouldn't stare at people. Even I know that. Let't get to town."
+
+	- Arlow you shouldn't stab people
+
+		"Oh... sorry."
+
+	- Arlow, never change // Sets stabbing to yes
+		
+		"OK"
+
+Continue to town
+
+Arlow arrives in Town.
+
+Show beautiful town.
+
+"OH WOW!"
+
+"Look at this place!"
+
+"I think we are going to be having a lot of fun here."
+
+"What should we do? Where do we go first?"
+
+ArlowsLiving - Lets go find you a place to live.
+ArlowsEating - I need something to eat.
+ArlowExplores -  We could walk around town for a bit.
+
+
+

@@ -1,0 +1,163 @@
+Variables
+	
+	<name>
+	Stabbing = yes/no
+	hasApartmentJob = yes/no
+
+"Gosh <name>, thanks for taking me to the noodle shop. You turned out to be quite the mentor!"
+
+
+Asian Worker - "Sup"
+
+"Hi sir! I would like to have some udon please."
+
+Asian Worker - "Yeah sure that will be 3.50."
+
+if hasApartmentJob = no
+
+	"3.50 what?"
+
+	Asian Worker - "Dollars my dude."
+
+	"Hey <name>, what are dollars?"
+
+	payForArlow - Don't worry about it Arlow, I got you covered on on this one.
+
+	explain - Its a form of currency humans use to makes purchases between eachother. You will need to get a job to get money.
+		- IDK man I've never had any
+
+
+
+	if PayForArlow
+		
+		"Geez <name>, you really are the best."
+
+		Arlow gets food and slurps some noodles down.
+
+		There is a commotion in the back ground and someone drops a bunch of noodles and rice.
+
+		Asian Worker - "OH NO! GOD DAMN IT KYLE! THIS IS GONNA TAKE FOREVER TO CLEAN!"
+
+		"Hey <name>, do you think I should help!"
+
+		Help-Well of course Arlow. Part of being human is helping others when they need it.
+		DontHelp-Fuck that you don't work here. They can take care of it.
+
+
+
+		if Help
+
+			"You're right <name>! I will help right away!"
+
+		if DontHelp
+
+			"I don't know <name> I really like it when you helped me. I think I'm just gonna help them anyway."
+
+	if explain
+
+		Asian Worker - "So whats it going to be?"
+
+		"I'm sorry, I don't have any dollars. But my tummy tum sure is rumbling up a storm."
+
+		"Isn't there anything I can do?"
+
+		There is a commotion in the back ground and someone drops a bunch of noodles and rice.
+
+		Asian Worker - "OH NO! GOD DAMN IT KYLE! THIS IS GONNA TAKE FOREVER TO CLEAN!"
+
+		Asian Worker - "You know what we really need more hands on deck here anyway."
+
+		Asian Worker - "How would you like to have a job here and work for your noodle!"
+
+		"OH BOI WOULD I!"
+	
+		Asian Worker - "Great, you can start by picking up this mess that ass-tard made."
+
+if hasApartmentJob = yes
+
+
+	"Hey <name>, I haven't gotten a check from the apartment complex yet."
+
+	"What do I do!!!"
+
+	payForArlow - Don't worry about it Arlow, I got you covered on on this one.
+
+	dontPayForArlow - I don't know man thats just how life is.
+
+	if PayForArlow
+		
+		"Geez <name>, you really are the best."
+
+		Arlow gets food and slurps some noodles down.
+
+		There is a commotion in the back ground and someone drops a bunch of noodles and rice.
+
+		Asian Worker - "OH NO! GOD DAMN IT KYLE! THIS IS GONNA TAKE FOREVER TO CLEAN!"
+
+		"Hey <name>, do you think I should help!"
+
+		Help - Well of course Arlow. Part of being human is helping others when they need it.
+
+		DontHelp - Fuck that you don't work here. They can take care of it.
+
+
+
+		if Help
+
+			"You're right <name>! I will help right away!"
+
+		if DontHelp
+
+			"I don't know <name> I really like it when you helped me. I think I'm just gonna help them anyway."
+
+	if dontPayforArlow
+
+		Asian Worker - "So whats it going to be?"
+
+		"I'm sorry, I don't have any dollars. But my tummy tum sure is rumbling up a storm."
+
+		"Isn't there anything I can do?"
+
+		There is a commotion in the back ground and someone drops a bunch of noodles and rice.
+
+		Asian Worker - "OH NO! GOD DAMN IT KYLE! THIS IS GONNA TAKE FOREVER TO CLEAN!"
+
+		"Hey sir! If I help to clean this mess up can I have my noodles?
+
+		Asian Worker - "Um...Yeah sure why not. I certainly don't have the staff right now for someone to just hop off and clean for an hour."
+
+		"OH BOI LETS DO IT!"
+	
+		Asian Worker - "Great, you can start picking up this mess that ass-tard made anyday now."
+
+Start Mini Game
+
+In this game, you have to switch the different noodles around to get rows of 3 or more.
+
+Once you reach a score of 20,000, you have finished cleaning the noodles for the Asian Worker.
+
+end Mini Game
+
+"Gosh I sure did have a lot of fun cleaning."
+
+If Stabbing = yes
+	
+	Arlow stabs Asian Worker
+end
+
+"Where are we off to now boss?"
+
+if hasApartmentJob = no
+	ArlowsLiving - It's time to go find you a place to live.
+	ArlowExplores - Why don't we go take a look around the city.
+else
+	ArlowExplores - Why don't we go take a look around the city.
+
+
+
+
+	
+
+	
+
+	

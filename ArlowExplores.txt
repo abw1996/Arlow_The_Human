@@ -1,0 +1,119 @@
+Variables
+
+	<name>
+	Stabbing = yes/no
+	hasApartment = yes/no
+	hasHadNoodles = yes/no
+	hasKey = yes/no
+
+If hasApartment or hasHadNoodles are equal to no
+
+	Arlow is walking through the town during the day.
+
+	There are a lot of beautiful shops and restaurants.
+
+	"Wow name, this place sure is beautiful. I wonder what all this city will hold for me."
+
+	Cracker thug walks up
+	
+	Honky - "GIVE ME ALL YOUR MONEY!!"
+
+	Honky - "YOU SHOULD HAVE KNOW BETTER THAN TO COME TO THIS PART OF TOWN DURING THIS EARLY IN THE DAY!"
+
+	Honky - "GUESS YOU DIDN'T KNOW THAT THE THUGS HERE LIKE AN EARLY START TO THEIR DAY!"
+
+	Honky - "I FIND IT HELPS ME TO GET A BETTER START AND REALLY MAKE THE MOST OF LIFE!"
+
+	Honky - "...GIVE ME YOU MONEY!"
+
+	"I DON'T HAVE ANY MONEY! <NAME> HAS ALL THE MONEY YOUR LOOKING FOR KILL <NAME> INSTEAD!"
+
+	Honky - "Looks like your friend done sold you out like you was cattle <name>."
+
+	BANG
+
+	YOU DEAD.
+
+	Game goes to main menu.
+
+
+If hasApartment and hasHadNoodles are true
+
+	Arlow walking through the town at night.
+
+	There are a lot of beautiful shops and restaurants.
+
+	"OOOOOOOOO"
+
+	"I've had such a good day with you <name>."
+
+	"You really do know how to show a human a good time." //reminder to Ashton to make 'demon' replace 'human' for 2 or so milliseconds.
+
+	if hasKey = yes
+
+		Old Gypsy - "YOU TWO! Follow me."
+
+		appear in gypsy room.
+
+		Gypsy hands you a locked chest.
+
+		"WHAT THE HELL IS THAT!"
+
+		"GET THAT AWAY FROM HIM YOU BITCH I'LL END YOU!"
+
+		Old Gypsy - "HE IS NOT A HUMAN. ONLY YOU HAVE THE POWER TO SAVE US!"
+
+		Mini Games Starts
+
+			Boss fight style
+
+			Arlow turns into a demon.
+	
+			press k to use the key.
+
+			open chest and a magic sword is pull from the chest.
+	
+			Boss fight to kill Arlow.
+
+			Once he is dead you win and mini game ends.
+			
+			If you die, screen reads "Guess you messed up somewhere along the way."
+
+		Mini Game ends
+
+		Old Gypsy - "You are very lucky that things ended up the way they did."
+
+		Old Gypsy - "Who knows how long that beast would have let you live."
+
+	if hasKey = no
+	
+		"Hey <name>, I really want to give you something for being such a big help today."
+
+		Appear in abandonned wearhouse.
+
+		"So sorry for this. You have been really helpful and I'm sure I will be able to blend in really easy now."
+
+		"But I'm really hungry and well... Its time to eat."
+
+		Mini Games Starts
+
+			Boss fight style
+
+			Arlow turns into a demon.
+
+		Boss fight to kill Arlow.
+	
+			User does not have a sword.
+	
+			User will certainly die.
+			
+			Once user dies, screen reads "Guess you messed up somewhere along the way."
+
+		Mini Game ends  
+
+
+
+	
+
+
+

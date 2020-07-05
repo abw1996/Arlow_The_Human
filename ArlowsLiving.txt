@@ -1,0 +1,102 @@
+Variables
+	Stabbing = yes/no
+	<name>
+	WorkingAtNoodleShop = yes/no
+
+Arlow is in the leasing office for an apartment complex
+
+It looks like a hotel lobby and there is a woman at the counter.
+
+Woman - "Hello sir. How can I help you?"
+
+"IM ARLOW!!!"
+
+Woman - ????
+
+"Will you give me a place to live cunt?"
+
+Woman - "WHAT?"
+
+"Can I have an apartment with a view out front?"
+
+Woman - "Let me see what we have available."
+      - "You're in luck!"
+      - "I have one with a front view that is rent controlled so the price is only 750 a month."
+      - "Would you like me to put together a contract?"
+
+If workingAtNoodleShop = no
+
+	"750 what?"
+
+	Woman - "Well dollars of course."
+
+	"Hey <name>, what is dollars?"
+
+	-Its a form of currency humans use to makes purchases between eachother. You will need to get a job to get money.
+	-IDK man I've never had any.
+
+	"Sorry lady, I don't have any money. BUT I REALLY NEED A PLACE TO STAY!"
+	
+	Woman - "Well we actually need another custodial worker here."
+	      - "If you work here we could just take the rent out of your check every month."
+	      - "How does that sound?"
+
+	"Beeeeeesh you got a deal"
+	
+	Woman - "Fantastic, but we will need you to start right away."
+	      - "We have a bunch of books in the office that really need to get organized but we haven't had the time."
+	      - "Could you get those organized real quick before you get too settled in?"
+	      - "Also I can't read so if you could please just organize them by color that would be great."
+
+If workingAtNoodleShop = yes
+
+	"Yeah sure!"
+
+	Woman - "Great! The deposit for this particular apartment is only going to be 250."
+	      - "Will you be paying with cash our card?"
+
+	"I'm sorry I only just got a job a little while ago and haven't gotten paid."
+
+	"Is there anything I can do so that we can get the place now?"
+
+	Woman - "Well we do have a bunch of books in the back that need to be organized."
+	      - "It would probably take our custodians a while to do it where the job would be worth about 250 in labor."
+	      - "Tell you what, if you go organize those books, I will waive the deposit here."
+	      - "Does that sound good to you?"
+
+	"That sounds perfect, thanks lady!"
+
+	"I'll get started right away!"
+
+	Woman - "Oh, and one more thing. I can't read so make sure to organze the books by color."
+
+end
+
+Start Mini Game
+
+In this game, you have to switch the different books around to get rows of 3 or more.
+
+Once you reach a score of 20,000, you have finished organizing the books for the leasing agent.
+
+end Mini Game
+
+Woman - "Wow! It looks like you did a really good job here. Here is the combination to your apartment."
+
+If Stabbing = Yes
+
+	"OH GOSH OF JEEZ OH BOI!!! Thanks dumb dumb!"
+	
+	Arlow stabs the woman
+
+If Stabbing = no
+
+	"Cool thanks whatever."
+end
+
+"Hey <name>, now that I have a place to live, what should I do next?"
+
+If WorkingAtNoodleShop = no
+	ArlowsEating - I need something to eat.
+	ArlowExplores -  We could walk around town for a bit.
+else
+	ArlowExplores -  We could walk around town for a bit.
